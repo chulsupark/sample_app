@@ -31,6 +31,10 @@ group :production do
 #   $ heroku restart
 #   $ heroku db:push
 #
+#   config.assets.compile = true
+#     in config/environments/production.rb
+#
+#
   gem "pg"
 end
 
