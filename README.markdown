@@ -16,3 +16,10 @@ $ sudo apt-get install libpq-dev
 	gem 'execjs'
 	gem 'therubyracer'
 #PCS_END
+
+----
+
+public/stylesheets|images|...
+to assets/
+
+----
