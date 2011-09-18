@@ -9,6 +9,8 @@ gem 'rails', '3.1.0'
 
 group :development do
   gem 'rspec-rails' #, '2.6.1'
+  #gem 'annotate', '2.4.0' #rails 3.1 problem?
+  gem 'annotate', :git => 'git://github.com/jeremyolliver/annotate_models.git', :branch => 'rake_compatibility'
 end
 
 group :test do

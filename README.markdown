@@ -10,7 +10,7 @@ I had to
 :production
 $ sudo apt-get install libpq-dev
 - gem 'pg' for heroku
-- heroku w/ --stack cedar
+- heroku w/ --stack cedar (see Gemfile for details)
 -  Ubuntu, JS
 # 3.1.0 problems on Ubuntu
 	gem 'execjs'
@@ -21,5 +21,8 @@ $ sudo apt-get install libpq-dev
 
 public/stylesheets|images|...
 to assets/
+	Heroku
+		config.assets.compile = true
+      in config/environments/production.rb
 
 ----
