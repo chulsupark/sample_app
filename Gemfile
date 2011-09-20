@@ -32,7 +32,7 @@ group :production do
 #
 #   $ heroku create --stack cedar
 #   $ git push heroku master
-#   $ heroku run db:migrate
+#   $ heroku run rake db:migrate
 #   $ heroku restart
 #   $ heroku db:push
 #
